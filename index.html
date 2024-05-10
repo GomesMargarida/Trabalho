@@ -8,17 +8,13 @@
 </head>
 <body>
 <div>
-<h1 id="titulo">Questionário para vaga de emprego</h1>
-<p id="subtitulo">Complete suas informações </p>
+<h1 id="titulo">Questionário para vaga de emprego  <br></h1>
 <form action="">
     <fieldset class="grupo">
-        <div class="campo">
-            <label for="nome" >Nome</label>
+        <div class="campo" >
+            <label for="nome" >Nome completo </label> 
             <input type="text" name="nome" id="nome" required>
-        </div>
-        <div>
-            <label for="sobrenome">Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome" required>
+            <br>
         </div>
     </fieldset>
         <div class="campo">
@@ -26,13 +22,13 @@
             <input type="email" name="email" id="email" required>
         </div>
         <div class="campo">
-            <label for="genero">Qual seu genero?</label>
+            <label for="genero">Qual seu genero?</label> <br>
             <input type="radio" name="feminino" id="feminino">Feminino
             <input type="radio" name="masculino" id="masculino">Masculino
         </div>
         <fieldset class="grupo">
             <div class="campo">
-                <label> Onde você mora?</label><br>
+                <label>Onde você mora?</label><br>
                 <input type="checkbox" id="rural" name="rural" value="rural">
                 <label for="escola">Zona Rural</label>
                 <input type="checkbox" id="urbana" name="urbana" value="urbana">
@@ -52,17 +48,17 @@
             </label>
         </div>
         <div class="campo">
-            <label> Em que área deseja atuar?</label>
+            <label> Em que área deseja atuar?</label> <br>
             <select name="area" id="area">
-                <option selected disabled value="selecione">Selecione</option>
-                <option> Eduação (necessita de ensiono superior)</option>
-                <option> Saúde (necessita de ensiono superior)</option>
-                <option> Assistencia (necessita de ensiono médio)</option>
-                <option> Serviços gerais, (necessita de ensino médio)</option>
+                <option selected disabled value="selecione">Selecione</option><br>
+                <option> Eduação (necessita de ensiono superior)</option><br>
+                <option> Saúde (necessita de ensiono superior)</option><br>
+                <option> Assistencia (necessita de ensiono médio)</option><br>
+                <option> Serviços gerais, (necessita de ensino médio)</option><br>
             </select>
         </div>
         <div class="campo">
-            <label>Experiências de trabalho</label>
+            <label>Experiências de trabalho</label> <br>
             <textarea name="ex" id="ex" rows="6" style="width: 26cm;"></textarea>
         </div>
         <button type="submit">Concluido</button>
