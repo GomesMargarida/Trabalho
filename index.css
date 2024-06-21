@@ -36,3 +36,12 @@ fieldset.grupo .campo{
     background: rgb(149, 189, 185)
     po
 }
+@media screen and(max-width:1020px){
+    body{display: block;
+   margin: 2em 2em;
+    }
+}
+@media screen and (max-width:600px) {    body{margin:1%;
+        flex-direction: column;
+    }
+    form{width: 100%;}
